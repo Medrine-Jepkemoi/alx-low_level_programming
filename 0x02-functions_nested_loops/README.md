@@ -8,3 +8,4 @@ Function that computes the absolute value of an integer
 Function that prints the last digit of a number
 Function that prints every minute of the day of Jack Bauer, starting from 00:00 to 23:59
 Function that prints the 9 times table, starting with 0
+Function that adds two integers and returns the result
