@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - prints the value of variable n
- *followed by an new line
+ * main - prints the value of variable n,
+ * followed by an new line
  * Return: Always 0 (Success)
  */
 int main(void)
