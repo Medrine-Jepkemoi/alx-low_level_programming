@@ -3,8 +3,8 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- *
+ * main - prints the value of variable n
+ *followed by an new line
  * Return: Always 0 (Success)
  */
 
