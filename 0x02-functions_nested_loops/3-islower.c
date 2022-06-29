@@ -6,9 +6,13 @@
  *
  * Return: Always 0.
  */
+
 int _islower(int c)
 {
-    if (c >= 'a' && c <= 'z')
+    int result;
+    result = islower(c);
+
+    if(result == 1)
     {
         return 1;
     }
@@ -17,5 +21,5 @@ int _islower(int c)
         return 0;
     }
 
-    return c;
+    return result;
 }
