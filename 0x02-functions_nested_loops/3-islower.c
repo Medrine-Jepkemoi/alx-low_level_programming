@@ -9,10 +9,7 @@
 
 int _islower(int c)
 {
-    int result;
-    result = _islower(c);
-
-    if(result == 1)
+    if (c >= 'a' && c <= 'z')
     {
         return 1;
     }
@@ -21,5 +18,5 @@ int _islower(int c)
         return 0;
     }
 
-    return result;
+    return c;
 }
