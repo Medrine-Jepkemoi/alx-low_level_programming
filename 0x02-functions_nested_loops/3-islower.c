@@ -8,17 +8,14 @@
  */
 int _islower(int c)
 {
-    int answer;
-    answer = _islower(c);
-    
-    if (answer == 1)
+    if (c == 1)
     {
-        printf("The character %d is a lowercase character", c);
+        printf("The character %d is a lowercase character\n", c);
     }
     else
     {
-        printf("The character %d is not a lowercase character", c);
+        printf("The character %d is not a lowercase character\n", c);
     }
 
-    return answer;
+    return c;
 }
