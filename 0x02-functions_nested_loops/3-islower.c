@@ -16,7 +16,7 @@ int _islower(int c)
     }
     else
     {
-        _putchar("The character %d is not a lowercase character", c);
+        printf("The character %d is not a lowercase character", c);
     }
 
     return answer;
