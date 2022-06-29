@@ -1,6 +1,6 @@
 int _isalpha(int c)
 {
-    if (_isalpha(c) == 1)
+    if (c >= 'a' && c <= 'Z')
     {
         return 1;
     }
