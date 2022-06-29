@@ -8,7 +8,8 @@
  */
 int _islower(int c)
 {
-    int answer = _islower(c);
+    int answer;
+    answer = _islower(c);
     
     if (answer == 1)
     {
